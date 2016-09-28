@@ -1,0 +1,43 @@
+{
+  "name": "bounding",
+  "version": "0.1.0",
+  "description": "Normalized cross-browser getBoundingClientRect",
+  "author": "Ryan Van Etten",
+  "license": "MIT",
+  "homepage": "https://github.com/ryanve/bounding#readme",
+  "main": "bounding.js",
+  "scripts": {
+    "pretest": "jshint bounding.js && jshint test.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "browser",
+    "dimensions",
+    "dom",
+    "element",
+    "getBoundingClientRect"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanve/bounding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanve/bounding/issues"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "boss": true,
+    "browser": true,
+    "eqnull": true,
+    "expr": true,
+    "supernew": true,
+    "latedef": "nofunc",
+    "maxerr": 5,
+    "node": true,
+    "undef": true,
+    "unused": true
+  }
+}
