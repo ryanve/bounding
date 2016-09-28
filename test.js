@@ -1,6 +1,6 @@
 !function() {
   var bounding = typeof require == 'function' ? require('./') : this.bounding
-  var props = ['top', 'bottom', 'left', 'right', 'width', 'height']
+  var props = ['top', 'bottom', 'left', 'right', 'width', 'height', 'x', 'y']
 
   function isNumber(x) {
     return x === +x
